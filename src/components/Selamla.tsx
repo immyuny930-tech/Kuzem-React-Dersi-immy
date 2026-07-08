@@ -4,10 +4,10 @@ interface KartProps {
     aciklama?: string;
 }
 
-function Kart ({basklik,fiyat,aciklama}: KartProps) {
+function Kart ({baslik,fiyat,aciklama}: KartProps) {
     return(
         <div>
-            <h2>{basklik}</h2>
+            <h2>{baslik}</h2>
             <p></p>
             
         </div>
